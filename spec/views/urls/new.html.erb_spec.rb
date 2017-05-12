@@ -1,5 +1,9 @@
 require 'rails_helper'
 
 # RSpec.describe "urls/new.html.erb", type: :view do
-#   pending "add some examples to (or delete) #{__FILE__}"
+# 	describe "expects to have form " do
+# 		expect(page).to have
+# 	end
+
+
 # end

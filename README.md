@@ -19,3 +19,6 @@ $ bundle exec rake db:migrate
 ```
 $ bundle exec guard
 ```
+Apparently Ruby 2.4 doesn't work (not tested though), so run below in terminal (at app root path) to revert to 2.3.3.
+$ rbenv install 2.3.3
+$ rbenv local 2.3.3

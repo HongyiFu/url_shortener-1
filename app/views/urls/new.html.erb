@@ -1,0 +1,9 @@
+<h1>This is new page</h1>
+
+<%= @errors %><br><br>
+
+<%= form_for @url do |f| %>
+	<%= f.label :long_url, "Enter long url here: " %>
+	<%= f.text_field :long_url, placeholder:"https://example.com" %>
+	<%= f.submit %>
+<% end %>
